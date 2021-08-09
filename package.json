@@ -1,0 +1,21 @@
+{
+    "name": "kodi-skin-snippets",
+    "displayName": "Kodi Skin Snippets",
+    "description": "Useful snippets for Kodi skin development",
+    "version": "0.0.1",
+    "publisher": "roidy",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "Top, Left, Width, Height": {
+        "prefix": [
+            "ktlwh"
+        ],
+        "body": [
+            "\t<top>$1</top>",
+            "\t<left>$2</left>",
+            "\t<width>$3</width>",
+            "\t<height>$4</height>"
+        ],
+        "description": "Top, Left, Width, Height"
+    },
+    "Top, Left, Bottom, Right": {
+        "prefix": [
+            "ktlbr"
+        ],
+        "body": [
+            "\t<top>$1</top>",
+            "\t<left>$2</left>",
+            "\t<bottom>$3</bottom>",
+            "\t<right>$4</right>"
+        ],
+        "description": "Top, Left, Bottom, Right"
+    },
+    "Kodi Control T,L": {
+        "prefix": [
+            "kcontl"
+        ],
+        "body": [
+            "<control type=\"$1\">",
+            "\t<top>$2</top>",
+            "\t<left>$3</left>",
+            "\t$0",
+            "</control>",
+        ],
+        "description": "Kodi Control T,L"
+    },
+    "Kodi Control T,L,W,H": {
+        "prefix": [
+            "kcontlwh"
+        ],
+        "body": [
+            "<control type=\"$1\">",
+            "\t<top>$2</top>",
+            "\t<left>$3</left>",
+            "\t<width>$4</width>",
+            "\t<height>$5</height>",
+            "\t$0",
+            "</control>",
+        ],
+        "description": "Kodi Control T,L,W,H"
+    },
+    "Kodi Control T,L,B,R": {
+        "prefix": [
+            "kcontlbr"
+        ],
+        "body": [
+            "<control type=\"$1\">",
+            "\t<top>$2</top>",
+            "\t<left>$3</left>",
+            "\t<bottom>$4</bottom>",
+            "\t<right>$5</right>",
+            "\t$0",
+            "</control>",
+        ],
+        "description": "Kodi Control T,L,B,R"
+    },
+    "Kodi Variable": {
+        "prefix": [
+            "kvar"
+        ],
+        "body": [
+            "<variable name=\"$1\">",
+            "\t<value condition=\"$2\">$3</value>",
+            "\t<value>$4</value",
+            "</variable>",
+        ],
+        "description": "Kodi Variable"
+    },
+}
